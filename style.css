@@ -1,0 +1,123 @@
+       .image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1;
+            width: 79%;
+            transition: .5s ease;
+            opacity: 0;
+            color: white;
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color: #111;
+        }
+        
+        footer {
+            background-color: #333;
+            padding: 10px;
+            margin-top: 10px;
+            text-align: center;
+            color: white;
+        }
+        
+        hr.solid {
+            border-top: 3px solid #333;
+            margin: 5px 150px 5px 150px;
+            opacity: 50%;
+        }
+        
+        .container {
+            width: 75%;
+            background-color: #ddd;
+            margin: 30px 150px 10px 150px;
+        }
+        
+        .container:hover .overlay {
+            opacity: 1;
+        }
+        
+        .skills {
+            text-align: right;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            color: white;
+            border-radius: 10px;
+        }
+        
+        .leadership {
+            width: 95%;
+            background-color: #999;
+        }
+        
+        .communication {
+            width: 90%;
+            background-color: #777;
+        }
+        
+        .emotion {
+            width: 85%;
+            background-color: #555;
+        }
+        
+        .strategic {
+            width: 70%;
+            background-color: #111;
+        }
+        
+        .fa {
+            padding: 15px;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 3px;
+            border-radius: 50%;
+        }
+        
+        .fa:hover {
+            opacity: 0.7;
+        }
+        
+        .fa-facebook {
+            color: #111;
+        }
+        
+        .fa-twitter {
+            color: #111;
+        }
+        
+        .fa-instagram {
+            color: #111;
+        }
